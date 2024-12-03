@@ -27,11 +27,11 @@ export default function App() {
       const response = await fetch(url);
       const data = await response.json();
 
-      console.log("API Response:", data); // Log response for debugging
+      console.log("API Response:", data);
 
       if (response.ok) {
         setImageData(data);
-        setError(null); // Clear error
+        setError(null);
       } else {
         setError(data.error || "Error fetching data");
       }
