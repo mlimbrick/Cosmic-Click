@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+.App {
+  font-family: "Lora";
+  font-size: 20px;
+  color: darkslateblue;
+  text-align: center;
+  background-image: radial-gradient(aliceblue, cornflowerblue);
+  min-height: 100vh;
+  margin: 0px;
+  padding: 12px 12px 0 12px;
+  display: grid;
+  grid-template-rows: 80px 50px auto 40px;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+.button {
+  background-color: darkslateblue;
+  color: aliceblue;
+  border-color: aliceblue;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: lightblue;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+h1 {
+  color: darkslateblue;
+  text-shadow: 2px 2px 2px aliceblue;
+  margin-top: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkslateblue;
+  color: aliceblue;
+  border: 2px dotted cornflowerblue;
+}
+
+footer {
+  font-style: italic;
+}
